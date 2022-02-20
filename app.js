@@ -17,7 +17,6 @@ const submit=document.querySelector(".btn");
      else{
         const binaryNumber =Number(number).toString(2)
          result.textContent=binaryNumber;
-         number='';
      }
  })
 
